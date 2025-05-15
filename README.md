@@ -1,5 +1,7 @@
 # PLP Web Development Week 8 Assignement Project
 
+LIVE LINK: https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-wmweemba/
+
 # WSM Blog
 
 Welcome to the WSM Blog—a fully functional, modern blog site built with HTML, CSS, and JavaScript and published using GitHub Pages.
@@ -46,7 +48,7 @@ WSM Blog is a multi-page web application that combines a mobile-first design wit
 ## Getting Started
 
 1. **View the Live Site:**  
-   Visit the live site at: https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-wmweemba/index.html
+   Visit the live site at: https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-wmweemba/
 
 2. **Clone the Repository:**  
    To contribute or run the project locally, clone the repository with:
