@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | My Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Include Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header" id="main-header">
+        <div class="container">
+            <nav class="nav-bar">
+                <button class="hamburger" aria-label="Toggle menu">☰</button>
+                <button id="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+            </nav>
+            <h1>Contact Us</h1>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <nav class="mobile-menu">
+        <button class="close-menu" aria-label="Close menu">✕</button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="posts.html">Posts</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container contact-page">
+        <section class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions, feel free to send us a message.</p>
+            <br>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Your Name" required>
+                
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Your Email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <br>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+        
+        <section class="social-media">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 WSM Blog. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

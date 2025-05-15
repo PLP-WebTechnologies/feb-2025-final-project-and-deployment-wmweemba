@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+   
+    <nav class="mobile-menu">
+        <button class="close-menu" aria-label="Close menu">✕</button>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="posts.html">Posts</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Landing Section -->
+    <section class="landing" id="landing-section">
+        <div class="container">
+            <nav class="nav-bar">
+                <button class="hamburger" aria-label="Toggle menu">☰</button>
+                <button id="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+            </nav>
+        </div>
+
+        <!-- Combined overlay for text and button -->
+        <div class="landing-overlay">
+            <h1>Network Nexus</h1>
+            <p>Build your Tech Career & Financial Freedom</p>
+            <button id="enter-site" class="enter-site-btn" aria-label="Enter Site">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Main Site Content -->
+    <main class="container" id="main-content">
+        <section class="hero">
+            <h2>What is Network Nexus?</h2>
+            <p>A platform that looks to help upcoming network and technology professionals, by sharing experiences and lessons 
+                that I have learned over my 9-year career. Hopefully what I have gone through over the years will help another 
+                network engineer and help them find the best path to success.</p>
+            <br>
+            <p>Through Industry Certifications like CISCO CCNA, we can gain skills that are valued in the industry. Having 
+                Certifications like these, employers and colleagues are assured that you possess the right skills for the job. 
+                That is the power of internationally recognized industry certifications from companies like CISCO, Juniper, 
+                CompTIA, and  Oracle.</p>
+            <br>
+            <p>I hope that what is shared here will help you get the jobs you want and the career you crave. Together, we can 
+                achieve big goals and make your dreams a reality. Let’s get started.</p>
+
+            <a href="posts.html" class="btn">Read Latest Posts</a>
+        </section>
+
+        <section class="featured-posts">
+            <h2>Featured Posts</h2>
+            <div class="post-grid">
+                <article class="post-card">
+                    <img src="./assets/techimage.gif" alt="Post thumbnail">
+                    <div class="post-content">
+                        <h3><a href="posts.html">CISCO vs Juniper</a></h3>
+                        <p class="post-meta">Published on <time datetime="2023-05-15">May 15, 2023</time></p>
+                        <p>Introduction Are you a CISCO or Juniper person? Have you ever wondered what certain commands 
+                            look like in CISCO’s IOS, or in Juniper’s Junos? This article covers 10 common network engineering...</p>
+                        <a href="posts.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <img src="./assets/flow.gif" alt="Post thumbnail">
+                    <div class="post-content">
+                        <h3><a href="posts.html">Netflow and Network TopTalkers</a></h3>
+                        <p class="post-meta">Published on <time datetime="2023-04-22">April 22, 2023</time></p>
+                        <p>Using Netflow to understand your network and get the best performance from your network. What is Network Netflow? 
+                            Netflow is a network protocol that collects information about network...</p>
+                        <a href="posts.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <img src="./assets/network.gif" alt="Post thumbnail">
+                    <div class="post-content">
+                        <h3><a href="posts.html">Email Hosting-10 Important Things to Know</a></h3>
+                        <p class="post-meta">Published on <time datetime="2023-04-22">April 22, 2023</time></p>
+                        <p>Introduction Communication is key in today’s world, both in personal and corporate life. There are few things 
+                            more important than effective communication to ensure that your business and...</p>
+                        <a href="posts.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 WSM Blog. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

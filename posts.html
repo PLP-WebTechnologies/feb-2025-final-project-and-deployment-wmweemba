@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog | All Posts</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <nav class="nav-bar">
+                <button class="hamburger" aria-label="Toggle menu">☰</button>
+                <button id="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <nav class="mobile-menu">
+        <button class="close-menu" aria-label="Close menu">✕</button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="posts.html" class="active">Posts</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section class="all-posts">
+            <h2>All Blog Posts</h2>
+            <div class="search-filter">
+                <input type="text" id="search-input" placeholder="Search posts...">
+                <select id="category-filter">
+                    <option value="all">All Categories</option>
+                    <option value="networking">Networking</option>
+                    <option value="webhosting">Web Hosting</option>
+                    <option value="configuration">Configuration</option>
+                </select>
+            </div>
+            
+            <div class="post-grid" id="posts-container">
+                <!-- Posts will be loaded here via JavaScript -->
+                <!-- Inserted Blog Post -->
+                <article class="post-card">
+                    <div class="post-content">
+                        <h3>
+                            <a href="blog-post.html">CISCO vs Juniper – Comparing 10 Common Network Commands</a>
+                        </h3>
+                        <div class="post-meta">
+                            11 Nov 2020 | William Mweemba | Configuration
+                        </div>
+                        <p>
+                            "Are you a CISCO or Juniper person? Have you ever wondered what certain commands look like 
+                            in CISCO’s IOS, or in Juniper’s Junos? This article covers 10 common network engineering 
+                            commands and compares the CISCO vs Juniper version. Tasks 1. Change Host-Name Every device has 
+                            a device name or hostname. This is an easy way to know which device you are currently logged 
+                            into. Most network administrators give their network devices hostnames that describe what device 
+                            it is and what it does. Think of a core router located at your main office, you could use a hostname 
+                            like “CORE-RTR-HQ”. The more descriptive the name, the better. 
+                            CISCO Router(config)# hostname CORE-RTR-HQCORE-RTR-HQ(config)# Note how the prompt changes 
+                            from “Router” to “CORE-RTR-HQ” which is the new hostname. Juniper root@# set host-name 
+                            CORE-RTR-HQroot@CORE-RTR-HQ#…"
+                        </p>
+                    </div>
+                </article>
+                <!-- Inserted Blog Post -->
+                <article class="post-card">
+                    <div class="post-content">
+                        <h3>
+                            <a href="blog-post.html">Netflow and Network Top Talkers. How to Find Them and What to Do Next</a>
+                        </h3>
+                        <div class="post-meta">
+                            30 Oct 2020 | William Mweemba | Tips n Tricks
+                        </div>
+                        <p>
+                            "Introduction Using Netflow to understand your network and get the best performance from your network. 
+                            What is Network Netflow? Netflow is a network protocol that collects information about network traffic 
+                            that is flowing through a network device’s interface. Netflow was originally created by CISCO to 
+                            collect flow data on CISCO devices. These days other vendors have their own versions of the Netflow 
+                            protocol on their devices. For example, Juniper has j-flow and Huawei has NetStream and S-Flow, etc. 
+                            Netflow collects data, called flows that are moving through an interface. Flows are a collection of 
+                            network information exchanged by almost all network devices. Collected flows are sent to a device that 
+                            can analyze this data. Once collected and analyzed, flows can then be presented in a way that is useful
+                             to you,…"
+                        </p>
+                    </div>
+                </article>
+                <!-- Inserted Blog Post -->
+                <article class="post-card">
+                    <div class="post-content">
+                        <h3>
+                            <a href="blog-post.html">Email hosting-10 important things you need to know</a>
+                        </h3>
+                        <div class="post-meta">
+                            25 Mar 2020 | William Mweemba | Tips n Tricks
+                        </div>
+                        <p>
+                            "Introduction Communication is key in today’s world, both in personal and corporate life. There are 
+                            few things more important than effective communication to ensure that your business and your business 
+                            relationships grow. Because of this, email has been and remains one of the most important tools 
+                            available to any business owner or person working within an organization. I will now share 10 
+                            important questions that I think you should know to help you understand Email Hosting services, 
+                            Custom Email accounts and how important they can be for you and your organization. 1 - What is Email 
+                            Hosting? Email Hosting is an internet service that allows you to rent email servers from a service 
+                            provider so that you can create custom email accounts for your business or personal use. Professional 
+                            email…"
+                        </p>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="pagination">
+                <button id="prev-page" disabled>Previous</button>
+                <span id="page-info">Page 1 of 3</span>
+                <button id="next-page">Next</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 WSM Blog. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+``` 
