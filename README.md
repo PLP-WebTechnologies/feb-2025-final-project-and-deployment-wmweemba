@@ -46,12 +46,12 @@ WSM Blog is a multi-page web application that combines a mobile-first design wit
 ## Getting Started
 
 1. **View the Live Site:**  
-   Visit the live site at: [Insert GitHub Pages URL Here]
+   Visit the live site at: https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-wmweemba/index.html
 
 2. **Clone the Repository:**  
    To contribute or run the project locally, clone the repository with:
    ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
+   git clone https://github.com/PLP-WebTechnologies/feb-2025-final-project-and-deployment-wmweemba.git
    ```
 
 3. **Open in Your IDE:**  
